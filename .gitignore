@@ -1,3 +1,5 @@
 Resources/
 __pycache__/
 *.pyc
+*.pkl
+tempCodeRunnerFile.py
