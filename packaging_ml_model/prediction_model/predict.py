@@ -8,7 +8,7 @@ from numpy.typing import NDArray
 
 PACKAGE_ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(PACKAGE_ROOT))
-from config import config  # noqa: E402
+from prediction_model.config import config  # noqa: E402
 from prediction_model.processing.data_handling import load_pipeline  # noqa: E402
 
 classification_pipeline = load_pipeline(config.MODEL_NAME)
