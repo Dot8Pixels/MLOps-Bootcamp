@@ -2,11 +2,11 @@
 # Packaging the ML Model of Classification
 
 #### Problem Statement
-- Company wants to automate the loan eligibility process based on customer detail provided while filling online application form. 
-- It is a classification problem where we have to predict whether a loan would be approved or not. 
+- Company wants to automate the loan eligibility process based on customer detail provided while filling online application form.
+- It is a classification problem where we have to predict whether a loan would be approved or not.
 
 #### Data
-The data corresponds to a set of financial requests associated with individuals. 
+The data corresponds to a set of financial requests associated with individuals.
 
 | Variables         | Description                                    |
 | ----------------- | ---------------------------------------------- |
@@ -141,7 +141,7 @@ pip install git+https://github.com/manifoldailearning/prediction_model.git
 
 # Testing the Package Working
 
-1. Remove the PYTHONPATH from environment variables 
+1. Remove the PYTHONPATH from environment variables
 2. Goto a separate location which is outside of package directory
 3. Create a new virual environment using the commands mentioned above & activate it
 4. Before installing, test whether you are able to import the package of `prediction_model` - (you should not be able to do it)
